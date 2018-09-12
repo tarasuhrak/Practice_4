@@ -1,0 +1,21 @@
+{
+  "name": "practice_4",
+  "version": "2.0.0",
+  "description": "Protractor tests for pages",
+  "main": "config.js",
+  "scripts": {
+    "test": "config.js",
+    "posttest": "allure generate allure-results --clean -o allure-report"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.7.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "^5.4.1",
+    "webdriver-manager": "^12.1.0"
+  },
+  "author": "Taras Uhrak",
+  "license": "ISC"
+}
